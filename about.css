@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(SubTrainDemo.ttf);
+}
+
+.flex {
+    justify-content: space-evenly;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.page1 {
+    display: flex;
+    background-color: rgb(36, 36, 36);
+}
+
+.aside {
+    display: flex;
+    /* background-color:aqua ; */
+    height: 100vh;
+    width: 50vw;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.aside .img {
+    width: 34vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 65vh;
+    background-image: url(img2.png);
+    left: 10em;
+    bottom: 0;
+    background-size: 21em;
+
+
+}
+
+.main {
+    background-color: black;
+}
+
+.topleft {
+    align-content: center;
+    font-size: 20px;
+
+}
+
+.topleft a {
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    right: 0;
+}
+
+.topleft a:hover {
+    color: rgb(255, 183, 0);
+}
+
+.topleft i {
+    display: none;
+}
+
+.topleft i:hover {
+    color: rgb(255, 183, 0);
+}
+
+/* .aside .img {
+    align-content: center;
+    image-rendering: auto;
+    image-resolution: 480;
+    margin: auto;
+    opacity: 0.8;
+    width: 30vw;
+    background-color: #fff;
+    height: 70vh;
+
+
+} */
+
+.aside .asbo {
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    background-color: rgba(255, 187, 0, 0.687);
+    position: relative;
+    left: 12em;
+    top: 10em;
+
+}
+
+.rside {
+    display: flex;
+    /* background-color:red ; */
+    height: 100vh;
+    width: 50vw;
+    right: 0;
+    top: 0;
+    color: white;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    text-overflow: hidden;
+
+}
+
+.rside h1 {
+    font-family: myFont;
+    color: rgba(255, 187, 0, 0.687);
+    font-size: 50px;
+}
+
+.rh {
+    width: 30vw;
+    justify-content: center;
+    margin: auto;
+    height: 60vh;
+    /* background-color: aqua; */
+}
+
+.rside .rr {
+    /* background-color: darkblue; */
+    text-align: left;
+    text-overflow: scroll;
+}
+
+.rside .rn {
+    text-indent: 2em;
+    padding-bottom: 1em;
+    text-overflow: scroll;
+    /* text-align: right; */
+}
+
+.rside .pr {
+    padding-bottom: 1em;
+    text-overflow: scroll;
+}
+
+.page2 {
+    display: flex;
+    /* background-color: rgb(36, 36, 36); */
+}
+
+
+.rside2 {
+    display: flex;
+    /* background-color: rgb(255, 0, 0); */
+    height: 100vh;
+    width: 50vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.aside2 {
+    display: flex;
+    /* background-color:rgb(0, 204, 255) ; */
+    height: 100vh;
+    width: 50vw;
+    right: 0;
+    top: 0;
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin: auto;
+
+    align-items: center;
+
+}
+
+.aside2 h1 {
+    font-family: myFont;
+    font-size: 50px;
+}
+
+
+.lh2 {
+    width: 30vw;
+    justify-content: center;
+    margin: auto;
+    height: 50vh;
+    /* background-color: rgb(0, 33, 33); */
+}
+
+.aside2 .lr2 {
+    /* background-color: darkblue; */
+    text-align: left;
+    text-overflow: scroll;
+}
+
+.aside2 .ln2 {
+    text-indent: 4em;
+    padding-bottom: 1em;
+    text-overflow: scroll;
+    /* text-align: right; */
+}
+
+.aside2 .lj2 {
+    padding-bottom: 1em;
+    text-overflow: scroll;
+}
+
+.PHOTO {
+    width: 40vw;
+    height: 60vh;
+    background-size: 30em;
+    background-repeat: no-repeat;
+    background-image: url(img1.png);
+    background-position: center;
+    position: relative;
+}
+
+.circle {
+    background-color: rgba(255, 187, 0, 0.616);
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    border-radius: 50%;
+    left: 8em;
+    top: 10em;
+    /* align-content: center; */
+    /* align-items: center; */
+}
+
+.aside3 {
+    display: flex;
+    /* background-color: rgb(255, 115, 0); */
+    height: 100vh;
+    width: 50vw;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.page3 {
+    display: flex;
+    background-color: rgb(36, 36, 36);
+}
+
+.rside3 {
+    display: flex;
+    /* background-color:rgb(85, 0, 255) ; */
+    height: 100vh;
+    width: 50vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.rside3 h1 {
+    font-family: myFont;
+    color: white;
+    font-size: 60px;
+}
+
+
+.lh3 {
+    width: 30vw;
+    justify-content: center;
+    margin: auto;
+    height: 50vh;
+    /* background-color: rgb(0, 33, 33); */
+}
+
+.rside3 .lr3 {
+    /* background-color: darkblue; */
+    text-align: left;
+
+}
+
+.rside3 .ln3 {
+    text-indent: 1em;
+    padding-bottom: 1em;
+    /* text-align: right; */
+}
+
+p {
+    text-overflow: hidden;
+}
+
+.rside3 .lj3 {
+    padding-bottom: 1em;
+}
+
+.aimg {
+    background-image: url(img3.png);
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 50vh;
+    background-size: 50em;
+    position: relative;
+    left: 2em;
+    top: 18em;
+
+}
+
+.aside3 .gola {
+    position: relative;
+    background-color: rgba(255, 187, 0, 0.616);
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    left: 11em;
+    bottom: 10;
+}
+
+.arrow {
+    font-size: 1em;
+    color: rgb(255, 183, 0);
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    filter: drop-shadow(5px 5px 15px rgb(255, 183, 0));
+}
+
+@media screen and (max-width: 500px) {
+    .flex {
+        width: 28vw;
+        height: 7vh;
+    }
+
+    .topleft a {
+        display: none;
+    }
+
+    .topleft i {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .page1 {
+        display: flex;
+        /* flex-direction: column; */
+        /* background-color: rgb(36, 36, 36);    */
+    }
+
+    .rside h1 {
+        font-size: 20px;
+    }
+
+    .rside p {
+        font-size: 5px;
+    }
+
+    .aside .img {
+        width: 42vw;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 65vh;
+        background-image: url(img2.png);
+        left: 2em;
+        bottom: 10em;
+        background-size: 10em;
+        background-position: left;
+
+
+    }
+
+    .aside .asbo {
+        width: 30vw;
+        height: 22vh;
+        border-radius: 50%;
+        background-color: rgba(255, 187, 0, 0.687);
+        position: absolute;
+        left: 2em;
+        top: 15em;
+
+    }
+
+
+    .page2 {
+        display: flex;
+        flex-direction: row;
+        /* background-color: rgb(36, 36, 36); */
+    }
+    .rside2 {
+        display: flex;
+        /* background-color: rgb(255, 0, 0); */
+        height: 100vh;
+        width: 50vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .aside2 {
+        display: flex;
+        /* background-color:rgb(0, 204, 255) ; */
+        height: 100vh;
+        width: 50vw;
+        right: 0;
+        top: 0;
+        color: rgb(0, 0, 0);
+        flex-wrap: wrap;
+        margin: auto;
+
+        align-items: center;
+
+    }
+
+    .aside2 h1 {
+        font-family: myFont;
+        font-size: 50px;
+    }
+
+
+    .lh2 {
+        width: 30vw;
+        justify-content: center;
+        margin: auto;
+        height: 50vh;
+        font-size: 5px;
+        /* background-color: rgb(0, 33, 33); */
+    }
+
+    .aside2 .lr2 {
+        /* background-color: darkblue; */
+        text-align: left;
+        text-overflow: scroll;
+        font-size: 20px;
+    }
+
+    .aside2 .ln2 {
+        text-indent: 4em;
+        padding-bottom: 1em;
+        text-overflow: scroll;
+        /* text-align: right; */
+        font-size: 20px;
+    }
+
+    .aside2 .lj2 {
+        padding-bottom: 1em;
+        text-overflow: scroll;
+    }
+
+    .PHOTO {
+        width: 40vw;
+        height: 60vh;
+        background-size: 11em;
+        background-repeat: no-repeat;
+        background-image: url(img1.png);
+        background-position: center;
+        position: relative;
+        bottom: 5em;
+        left: 0em;
+    }
+    .circle {
+        width: 26vw;
+        height: 18vh;
+        position: absolute;
+        border-radius: 50%;
+        left: 2em;
+        top: 12em;
+        background-color: rgba(255, 187, 0, 0.616);
+    }
+    
+
+    .rside2 {
+        display: flex;
+        /* background-color: rgb(255, 0, 0); */
+        height: 100vh;
+        width: 50vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .aside2 {
+        display: flex;
+        /* background-color:rgb(0, 204, 255) ; */
+        height: 100vh;
+        width: 50vw;
+        right: 0;
+        top: 0;
+        color: rgb(0, 0, 0);
+        flex-wrap: wrap;
+        margin: auto;
+
+        align-items: center;
+
+    }
+
+    .aside2 h1 {
+        font-family: myFont;
+        font-size: 50px;
+    }
+
+
+    .lh2 {
+        width: 30vw;
+        justify-content: center;
+        margin: auto;
+        height: 50vh;
+        /* background-color: rgb(0, 33, 33); */
+    }
+
+    .aside2 .lr2 {
+        /* background-color: darkblue; */
+        text-align: left;
+        text-overflow: scroll;
+    }
+
+    .aside2 .ln2 {
+        text-indent: 4em;
+        padding-bottom: 1em;
+        text-overflow: scroll;
+        /* text-align: right; */
+    }
+
+    .aside2 .lj2 {
+        padding-bottom: 1em;
+        text-overflow: scroll;
+    }
+
+    .PHOTO {
+        width: 40vw;
+        height: 60vh;
+        background-size: 10em;
+        background-repeat: no-repeat;
+        background-image: url(img1.png);
+        background-position: center;
+        position: relative;
+    }
+    
+
+
+    .page3 {
+        display: flex;
+        flex-direction: row;
+        /* background-color: rgb(36, 36, 36); */
+    }
+    .rside3 {
+        display: flex;
+        /* background-color:rgb(85, 0, 255) ; */
+        height: 100vh;
+        width: 50vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .rside3 h1 {
+        font-family: myFont;
+        color: white;
+        font-size: 20px;
+    }
+    
+    
+    .lh3 {
+        width: 30vw;
+        justify-content: center;
+        margin: auto;
+        height: 50vh;
+        font-size: 8px;
+        /* background-color: rgb(0, 33, 33); */
+    }
+    
+    .rside3 .lr3 {
+        /* background-color: darkblue; */
+        text-align: left;
+    
+    }
+    
+    .rside3 .ln3 {
+        text-indent: 1em;
+        padding-bottom: 1em;
+        /* text-align: right; */
+    }
+    
+    p {
+        text-overflow: hidden;
+        font-size: 5px;
+    }
+    
+    .rside3 .lj3 {
+        padding-bottom: 1em;
+    }
+    
+    .aimg {
+        background-image: url(img3.png);
+        background-repeat: no-repeat;
+        width: 50vw;
+        height: 50vh;
+        background-size: 50em;
+        position: relative;
+        left: 6em;
+        top: 0em;
+    
+    }
+    
+    .aside3 .gola {
+    position: absolute;
+    background-color: rgba(255, 187, 0, 0.616);
+    width: 27vw;
+    height: 19vh;
+    border-radius: 50%;
+    left: 11em;
+    bottom: -132px;
+    top: 344em;
+    }
+
+}
