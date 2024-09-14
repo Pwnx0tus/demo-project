@@ -367,22 +367,21 @@ p {
         position: relative;
         height: 65vh;
         background-image: url(img2.png);
-        left: 2em;
-        bottom: 10em;
-        background-size: 10em;
+        left: 12em;
+        bottom: 24em;
+        background-size: 25em;
         background-position: left;
-
 
     }
 
     .aside .asbo {
-        width: 30vw;
-        height: 22vh;
+        width: 22vw;
+        height: 16vh;
         border-radius: 50%;
         background-color: rgba(255, 187, 0, 0.687);
         position: absolute;
-        left: 2em;
-        top: 15em;
+        left: 14em;
+        top: 54em;
 
     }
 
@@ -392,6 +391,7 @@ p {
         flex-direction: row;
         /* background-color: rgb(36, 36, 36); */
     }
+
     .rside2 {
         display: flex;
         /* background-color: rgb(255, 0, 0); */
@@ -463,6 +463,7 @@ p {
         bottom: 5em;
         left: 0em;
     }
+
     .circle {
         width: 26vw;
         height: 18vh;
@@ -472,7 +473,7 @@ p {
         top: 12em;
         background-color: rgba(255, 187, 0, 0.616);
     }
-    
+
 
     .rside2 {
         display: flex;
@@ -540,7 +541,7 @@ p {
         background-position: center;
         position: relative;
     }
-    
+
 
 
     .page3 {
@@ -548,6 +549,7 @@ p {
         flex-direction: row;
         /* background-color: rgb(36, 36, 36); */
     }
+
     .rside3 {
         display: flex;
         /* background-color:rgb(85, 0, 255) ; */
@@ -557,14 +559,14 @@ p {
         justify-content: center;
         align-content: center;
     }
-    
+
     .rside3 h1 {
         font-family: myFont;
         color: white;
         font-size: 20px;
     }
-    
-    
+
+
     .lh3 {
         width: 30vw;
         justify-content: center;
@@ -573,28 +575,28 @@ p {
         font-size: 8px;
         /* background-color: rgb(0, 33, 33); */
     }
-    
+
     .rside3 .lr3 {
         /* background-color: darkblue; */
         text-align: left;
-    
+
     }
-    
+
     .rside3 .ln3 {
         text-indent: 1em;
         padding-bottom: 1em;
         /* text-align: right; */
     }
-    
+
     p {
         text-overflow: hidden;
         font-size: 5px;
     }
-    
+
     .rside3 .lj3 {
         padding-bottom: 1em;
     }
-    
+
     .aimg {
         background-image: url(img3.png);
         background-repeat: no-repeat;
@@ -604,18 +606,18 @@ p {
         position: relative;
         left: 6em;
         top: 0em;
-    
+
     }
-    
+
     .aside3 .gola {
-    position: absolute;
-    background-color: rgba(255, 187, 0, 0.616);
-    width: 27vw;
-    height: 19vh;
-    border-radius: 50%;
-    left: 11em;
-    bottom: -132px;
-    top: 344em;
+        position: absolute;
+        background-color: rgba(255, 187, 0, 0.616);
+        width: 27vw;
+        height: 19vh;
+        border-radius: 50%;
+        left: 11em;
+        bottom: -132px;
+        top: 344em;
     }
 
 }
